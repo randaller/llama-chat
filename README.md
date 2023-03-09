@@ -15,6 +15,8 @@ https://github.com/facebookresearch/llama/issues/162
 - NVIDIA graphics card
 - 64 or better 128 Gb of RAM (192 or 256 would be perfect)
 
+One may run with 32 Gb of RAM, but inference will be slow (with the speed of your swap file reading)
+
 ### Conda Environment Setup Example for Windows 10+
 Download and install Anaconda Python https://www.anaconda.com and run Anaconda Prompt
 ```
