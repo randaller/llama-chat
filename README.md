@@ -6,6 +6,10 @@ This repo is heavily based on Meta's original repo: https://github.com/facebookr
 
 And on Venuatu's repo: https://github.com/venuatu/llama
 
+### Examples of chats here
+
+https://github.com/facebookresearch/llama/issues/162
+
 ### System requirements
 - Modern enough CPU
 - NVIDIA graphics card
