@@ -17,7 +17,7 @@ https://github.com/facebookresearch/llama/issues/162
 
 One may run with 32 Gb of RAM, but inference will be slow (with the speed of your swap file reading)
 
-I am running this on 12700k/128 Gb RAM/NVIDIA 3070ti 8Gb/fast huge nvme
+I am running this on 12700k/128 Gb RAM/NVIDIA 3070ti 8Gb/fast huge nvme and getting one token from 30B model in a few seconds.
 
 ### Conda Environment Setup Example for Windows 10+
 Download and install Anaconda Python https://www.anaconda.com and run Anaconda Prompt
