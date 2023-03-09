@@ -27,3 +27,22 @@ or
 
 magnet:xt=urn:btih:b8287ebfa04f879b048d4d4404108cf3e8014352&dn=LLaMA&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
 
+### Prepare model
+
+First, you need to unshard model checkpoints to a single file. Let's do this for 30B model.
+
+```
+python merge_weights.py --input_dir D:\Downloads\LLaMA --model_size 30B
+```
+
+In this example, D:\Downloads\LLaMA is a root folder of downloaded torrent with weights.
+
+This will create merged.pth file in the root folder of this repo.
+
+Place this file and corresponding (torrentroot)/30B/params.json of model into [/model] folder.
+
+File tokenizer.model should be in [/tokenizer] folder of this repo. Now you are ready to go.
+
+```
+python example-chat.py
+```
