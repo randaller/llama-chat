@@ -19,6 +19,8 @@ One may run with 32 Gb of RAM, but inference will be slow (with the speed of you
 
 I am running this on 12700k/128 Gb RAM/NVIDIA 3070ti 8Gb/fast huge nvme and getting one token from 30B model in a few seconds.
 
+For example, 30B model uses around 70 Gb of RAM.
+
 ### Conda Environment Setup Example for Windows 10+
 Download and install Anaconda Python https://www.anaconda.com and run Anaconda Prompt
 ```
