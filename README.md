@@ -58,6 +58,8 @@ Place this file and corresponding (torrentroot)/30B/params.json of model into [/
 
 Place (torrentroot)/tokenizer.model file to the [/tokenizer] folder of this repo. Now you are ready to go.
 
+### Run the chat
+
 ```
 python example-chat.py ./model ./tokenizer/tokenizer.model
 ```
