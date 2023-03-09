@@ -58,6 +58,8 @@ This will create merged.pth file in the root folder of this repo.
 
 Place this file and corresponding (torrentroot)/30B/params.json of model into [/model] folder.
 
+So you should end up with two files in model folder: merged.pth and params.json.
+
 Place (torrentroot)/tokenizer.model file to the [/tokenizer] folder of this repo. Now you are ready to go.
 
 ### Run the chat
