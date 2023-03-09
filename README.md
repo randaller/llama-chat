@@ -78,4 +78,4 @@ If you wish to stop generation not by "\n" sign, but by another signature, like 
 
 ![image](https://user-images.githubusercontent.com/22396871/224122767-227deda4-a718-4774-a7f9-786c07d379cf.png)
 
--5 means to remove last 5 chars from resulting context, this is length of your stop signature, "User:" in this example.
+-5 means to remove last 5 chars from resulting context, which is length of your stop signature, "User:" in this example.
