@@ -1,0 +1,6 @@
+torch
+fairscale
+fire
+sentencepiece
+tqdm
+pyarrow
