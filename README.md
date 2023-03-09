@@ -74,6 +74,6 @@ python example-chat.py ./model ./tokenizer/tokenizer.model
 
 ### Enable multi-line answers
 
-If you wish to stop generations not by "\n" sign, but by another signature, like "User:" (which is also good idea), or any other, make the following modification in the llama/generator.py:
+If you wish to stop generation not by "\n" sign, but by another signature, like "User:" (which is also good idea), or any other, make the following modification in the llama/generator.py:
 
 ![image](https://user-images.githubusercontent.com/22396871/224122767-227deda4-a718-4774-a7f9-786c07d379cf.png)
