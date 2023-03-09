@@ -6,6 +6,11 @@ This repo is heavily based on Meta's original repo: https://github.com/facebookr
 
 And on Venuatu's repo: https://github.com/venuatu/llama
 
+# System requirements
+- Modern enough CPU
+- NVIDIA graphics card
+- 64 or better 128 Gb of RAM (192 or 256 would be perfect)
+
 ### Conda Environment Setup Example for Windows 10+
 Download and install Anaconda Python https://www.anaconda.com and run Anaconda Prompt
 ```
