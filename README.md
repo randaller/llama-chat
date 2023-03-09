@@ -41,8 +41,8 @@ This will create merged.pth file in the root folder of this repo.
 
 Place this file and corresponding (torrentroot)/30B/params.json of model into [/model] folder.
 
-File tokenizer.model should be in [/tokenizer] folder of this repo. Now you are ready to go.
+Place (torrentroot)/tokenizer.model file to the [/tokenizer] folder of this repo. Now you are ready to go.
 
 ```
-python example-chat.py
+python example-chat.py ./model ./tokenizer/tokenizer.model
 ```
