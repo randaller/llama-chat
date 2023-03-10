@@ -95,3 +95,5 @@ Simply comment those three lines in llama/generation.py to turn it to a generato
 ```
 python example.py ./model ./tokenizer/tokenizer.model
 ```
+
+Confirming that 30B model could generate code: https://github.com/randaller/llama-chat/issues/7
