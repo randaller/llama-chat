@@ -21,7 +21,7 @@ One may run with 32 Gb of RAM, but inference will be slow (with the speed of you
 
 I am running this on 12700k/128 Gb RAM/NVIDIA 3070ti 8Gb/fast huge nvme and getting one token from 30B model in a few seconds.
 
-For example, **30B model uses around 70 Gb of RAM**. 7B model fits into 18 Gb.
+For example, **30B model uses around 70 Gb of RAM**. 7B model fits into 18 Gb. 13B model uses 48 Gb.
 
 If you do not have powerful videocard, you may use another repo for cpu-only inference: https://github.com/randaller/llama-cpu
 
