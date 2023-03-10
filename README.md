@@ -10,6 +10,8 @@ And on Venuatu's repo: https://github.com/venuatu/llama
 
 https://github.com/facebookresearch/llama/issues/162
 
+Share your prompts or generations here in this issue: https://github.com/randaller/llama-chat/issues/7
+
 ### System requirements
 - Modern enough CPU
 - NVIDIA graphics card
