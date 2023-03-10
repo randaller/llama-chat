@@ -80,4 +80,6 @@ If you wish to stop generation not by "\n" sign, but by another signature, like 
 
 -5 means to remove last 5 chars from resulting context, which is length of your stop signature, "User:" in this example.
 
+### Share the best with community
+
 Share your best prompts and generations with others here: https://github.com/randaller/llama-chat/issues/7
