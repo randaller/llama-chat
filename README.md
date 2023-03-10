@@ -97,3 +97,5 @@ python example.py ./model ./tokenizer/tokenizer.model
 ```
 
 Confirming that 30B model is able to generate code: https://github.com/randaller/llama-chat/issues/7
+
+Confirming that 30B model is able to generate prompts for Stable Diffusion: https://github.com/randaller/llama-chat/issues/7#issuecomment-1463691554
