@@ -95,7 +95,7 @@ top_k: int = 40,
 sampler: str = 'top_k',
 ```
 
-For sure, you may play with top_k value to get slightly different outputs.
+For sure, you may play with all the values to get different outputs.
 
 ### Enable multi-line answers
 
