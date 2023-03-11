@@ -80,7 +80,7 @@ python example-chat.py ./model ./tokenizer/tokenizer.model
 
 ![image](https://user-images.githubusercontent.com/22396871/224481306-0079dc71-a659-46f2-96a3-38d8a0b8bafc.png)
 
-**Temperature** is one of the key parameters of generation. You may wish to play with temperature, setting it around 0.7 .. 0.99. The more temperature is, the more model should follow your prompt, the less temperature instruct model to use more imagination.
+**Temperature** is one of the key parameters of generation. You may wish to play with temperature. The more temperature is, the model will use more "creativity", and the less temperature instruct model to be "less creative", but following your prompt stronger.
 
 **Repetition penalty** is a feature implemented by Shawn Presser. With this, the model will be fined, when it would like to enter to repetion loop state. Set this parameter to 1.0, if you wish to disable this feature.
 
