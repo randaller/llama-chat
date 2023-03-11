@@ -97,6 +97,20 @@ sampler: str = 'top_k',
 
 For sure, you may play with all the values to get different outputs.
 
+**Launch examples**
+
+One may modify these hyperparameters straight in code. But it is better to leave the defaults in code and set the parameters in the launch line.
+
+```
+# Run with top_p sampler, with temperature 0.75, with top_p value 0.9, repetition penalty disabled
+python example-chat.py ./model ./tokenizer/tokenizer.model 0.75 0.9 40 1.0 top_p
+
+# Run with top_p sampler, with temperature 0.7, with top_k value 40, default repetition penalty value
+python example-chat.py ./model ./tokenizer/tokenizer.model 0.7 0.0 40 1.17 top_k
+
+# of course, this is also applicable to a [python example.py] as well (see below)
+```
+
 ### Enable multi-line answers
 
 If you wish to stop generation not by "\n" sign, but by another signature, like "User:" (which is also good idea), or any other, make the following modification in the llama/generation.py:
@@ -111,7 +125,7 @@ Share your best prompts and generations with others here: https://github.com/ran
 
 ### Typical generation with prompt (not a chat)
 
-Simply comment those three lines in llama/generation.py to turn it to a generator back.
+Simply comment three lines in llama/generation.py to turn it to a generator back.
 
 ![image](https://user-images.githubusercontent.com/22396871/224283389-e29de04e-28d1-4ccd-bf6b-81b29828d3eb.png)
 
