@@ -1,8 +1,11 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the GNU General Public License version 3.
 
+# Copyright by Steve Manuatu
+# https://github.com/venuatu
+
 # Copyright by Shawn Presser
-# https://github.com/shawwn/
+# https://github.com/shawwn
 # taken here
 # https://github.com/shawwn/llama/commit/40d99d329a5e38d85904d3a6519c54e6dd6ee9e1
 
