@@ -82,6 +82,18 @@ python example-chat.py ./model ./tokenizer/tokenizer.model
 
 **Temperature** is one of the key parameters of generation. You may wish to play with temperature, setting it around 0.7 .. 0.99. The more temperature is, the more model should follow your prompt, the less temperature instruct model to use more imagination.
 
+**Repetition penalty** is a feature implemented by Shawn Presser. With this, the model will be fined, when it would like to enter to repetion loop state. Set this parameter to 1.0, if you wish to disable this feature.
+
+**Samplers**
+
+By default, Meta provided us with top_p sampler only. Again, Shawn added an alternative top_k sampler, which (in my tests) performs pretty well. If you wish to switch to top_k sampler, use the following parameters:
+
+```
+top_p: float = 0.0,
+top_k: int = 40,
+sampler: str = 'top_k',
+```
+
 ### Enable multi-line answers
 
 If you wish to stop generation not by "\n" sign, but by another signature, like "User:" (which is also good idea), or any other, make the following modification in the llama/generation.py:
