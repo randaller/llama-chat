@@ -84,21 +84,23 @@ def main(
         ckpt_dir: str,
         tokenizer_path: str,
         temperature: float = 0.8,
-        top_p: float = 0.95,
+        top_p: float = 0.0,  # use 0.95 or so for top_p sampler, and 0.0 for top_k sampler
+        top_k: int = 40,
+        repetition_penalty: float = (1.0 / 0.85),  # 1.0 to disable repetition_penalty
+        sampler: str = 'top_k',  # top_k or top_p
         max_seq_len: int = 2048,
-        max_batch_size: int = 1,  # 16 for 13B, 4 for 30B and 65B (for 512 seq)
+        max_batch_size: int = 1,
 ):
     generator = load(ckpt_dir, tokenizer_path, max_seq_len, max_batch_size)
 
     prompts = [
-        # For these prompts, the expected answer is the natural continuation of the prompt
         # "I believe the meaning of life is",
-
         """Write the Python code with detailed comments to generate 256 random integers in the range from -128 to 512, inclusive.
 \\begin{code}\n""",
     ]
+    
     results = generator.generate(
-        prompts, max_gen_len=max_seq_len, temperature=temperature, top_p=top_p
+        prompts, max_gen_len=max_seq_len, temperature=temperature, top_p=top_p, top_k=top_k, repetition_penalty=repetition_penalty, sampler=sampler
     )
 
     for result in results:
