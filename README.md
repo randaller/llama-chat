@@ -86,7 +86,7 @@ python example-chat.py ./model ./tokenizer/tokenizer.model
 
 **Samplers**
 
-By default, Meta provided us with top_p sampler only. Again, Shawn added an alternative top_k sampler, which (in my tests) performs pretty well. If you wish to switch to top_k sampler, use the following parameters:
+By default, Meta provided us with top_p sampler only. Again, Shawn added an alternate top_k sampler, which (in my tests) performs pretty well. If you wish to switch to top_k sampler, use the following parameters:
 
 ```
 top_p: float = 0.0,
