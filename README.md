@@ -94,6 +94,8 @@ top_k: int = 40,
 sampler: str = 'top_k',
 ```
 
+For sure, you may play with top_k value to get slightly different outputs.
+
 ### Enable multi-line answers
 
 If you wish to stop generation not by "\n" sign, but by another signature, like "User:" (which is also good idea), or any other, make the following modification in the llama/generation.py:
