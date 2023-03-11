@@ -78,9 +78,9 @@ python example-chat.py ./model ./tokenizer/tokenizer.model
 
 ### Generation parameters
 
-![image](https://user-images.githubusercontent.com/22396871/224481168-122ef4d1-43b0-4579-8f7e-594936b7bafa.png)
+![image](https://user-images.githubusercontent.com/22396871/224481306-0079dc71-a659-46f2-96a3-38d8a0b8bafc.png)
 
-**Temperature** is one of key parameters of generation. You may wish to play with temperature, setting it around 0.7 .. 0.99. The more temperature is, the more model should follow your prompt, the less temperature instruct model to use more imagination.
+**Temperature** is one of the key parameters of generation. You may wish to play with temperature, setting it around 0.7 .. 0.99. The more temperature is, the more model should follow your prompt, the less temperature instruct model to use more imagination.
 
 ### Enable multi-line answers
 
