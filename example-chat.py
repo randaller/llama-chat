@@ -83,9 +83,12 @@ def main(
         ckpt_dir: str,
         tokenizer_path: str,
         temperature: float = 0.8,
-        top_p: float = 0.95,
+        top_p: float = 0.0,  # use 0.95 or so for top_p sampler, and 0.0 for top_k sampler
+        top_k: int = 40,
+        repetition_penalty: float = (1.0 / 0.85),  # 1.0 to disable repetition_penalty
+        sampler: str = 'top_k',  # top_k or top_p
         max_seq_len: int = 2048,
-        max_batch_size: int = 1,  # 16 for 13B, 4 for 30B and 65B, 2 for 1024 seq_len for 30B
+        max_batch_size: int = 1,
 ):
     generator = load(ckpt_dir, tokenizer_path, max_seq_len, max_batch_size)
 
@@ -106,7 +109,7 @@ AI: Hello! How can I assist you today?
         if len(ctx.strip()) > 0:
             prompts = [ctx]
             results = generator.generate(
-                prompts, max_gen_len=2048, temperature=temperature, top_p=top_p
+                prompts, max_gen_len=max_seq_len, temperature=temperature, top_p=top_p, top_k=top_k, repetition_penalty=repetition_penalty, sampler=sampler
             )
             ctx = results[0]
 
