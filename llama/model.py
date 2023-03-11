@@ -1,6 +1,9 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the GNU General Public License version 3.
 
+# Copyright by Steve Manuatu
+# https://github.com/venuatu
+
 from typing import Optional, Tuple
 from dataclasses import dataclass
 import math
