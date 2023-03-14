@@ -139,3 +139,5 @@ Confirming that 30B model is able to generate code and fix errors in code: https
 Confirming that 30B model is able to generate prompts for Stable Diffusion: https://github.com/randaller/llama-chat/issues/7#issuecomment-1463691554
 
 Confirming that 7B and 30B model support Arduino IDE: https://github.com/randaller/llama-chat/issues/7#issuecomment-1464179944
+
+Configming that 30B model is able to generate SQL code: https://github.com/randaller/llama-chat/issues/7#issuecomment-1467861922
