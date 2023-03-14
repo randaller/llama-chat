@@ -141,3 +141,16 @@ Confirming that 30B model is able to generate prompts for Stable Diffusion: http
 Confirming that 7B and 30B model support Arduino IDE: https://github.com/randaller/llama-chat/issues/7#issuecomment-1464179944
 
 Confirming that 30B model is able to generate SQL code: https://github.com/randaller/llama-chat/issues/7#issuecomment-1467861922
+
+### Reference
+
+LLaMA: Open and Efficient Foundation Language Models -- https://arxiv.org/abs/2302.13971
+
+```
+@article{touvron2023llama,
+  title={LLaMA: Open and Efficient Foundation Language Models},
+  author={Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\'e}e and Rozi{\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and Rodriguez, Aurelien and Joulin, Armand and Grave, Edouard and Lample, Guillaume},
+  journal={arXiv preprint arXiv:2302.13971},
+  year={2023}
+}
+```
