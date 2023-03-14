@@ -1,5 +1,4 @@
 torch
-fairscale
 fire
 sentencepiece
 tqdm
