@@ -168,7 +168,7 @@ Trained model will be saved into [./trained] folder. Now you may launch inferenc
 python hf-inference-example.py
 ```
 
-### Bfloat16 optimization
+### Bfloat16 training and inference optimization
 
 To save memory you may enable Bfloat16 processing.
 
