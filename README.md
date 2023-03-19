@@ -186,7 +186,7 @@ python hf-inference-example.py
 To save CPU RAM or GPU VRAM memory, one may wish to enable Bfloat16 processing.
 
 ```
-# to save memory use bfloat16 on cpu
+# to save memory use bfloat16
 import torch
 torch.set_default_dtype(torch.bfloat16)
 ```
