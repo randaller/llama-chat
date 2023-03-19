@@ -225,13 +225,13 @@ Then run the training, then after a long-long time, use something like this as a
 batch = tokenizer("A portrait of a beautiful girl, ", return_tensors="pt")
 ```
 
-*Note: If you have prepared and used own dataset with Positive: Negative: lines, the initial prompt may look like:*
+*Note: If you have prepared and used own dataset with Positive: Negative: lines, the initial LLaMA prompt may look like:*
 
 ```
 batch = tokenizer("Positive: A warship flying thru the Wormhole, ", return_tensors="pt")
 ```
 
-Run inference, this should return continued prompt.
+Run inference, this should return continued prompt for SD.
 
 ## Reference
 
