@@ -201,7 +201,7 @@ One with A100 might try to set 38Gb to a GPU0 and try to inference the model com
 
 One with 4*A100 might wish to use: {0: "38GiB", 1: "38GiB", 2: "38GiB", 3: "38GiB", "cpu":"128GiB"}.
 
-For me, with 6Gb for 3070ti, this works three times slower against pure CPU inference.
+For me, with 7Gb for 3070ti, for 7B model, this works at the same speed as pure CPU inference.
 
 ```
 python hf-inference-cuda-example.py
