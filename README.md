@@ -207,7 +207,7 @@ For me, with 7Gb for 3070ti, for 7B model, this works at the same speed as pure 
 python hf-inference-cuda-example.py
 ```
 
-### An example "How to train LLaMA for Stable Diffusion prompting"
+### "How to train LLaMA for Stable Diffusion prompting" example
 
 Modify hf-training-example.py, also feel free to use more or less lines of SD prompts:
 
