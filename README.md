@@ -168,6 +168,16 @@ Trained model will be saved into [./trained] folder. Now you may launch inferenc
 python hf-inference-example.py
 ```
 
+### Bfloat16 optimization
+
+To save memory you may enable Bfloat16 processing.
+
+```
+# to save memory use bfloat16 on cpu
+import torch
+torch.set_default_dtype(torch.bfloat16)
+```
+
 ## Reference
 
 LLaMA: Open and Efficient Foundation Language Models -- https://arxiv.org/abs/2302.13971
