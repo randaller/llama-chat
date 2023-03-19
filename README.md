@@ -23,7 +23,7 @@ Share your best prompts, chats or generations here in this issue: https://github
 
 One may run with 32 Gb of RAM, but inference will be slow (with the speed of your swap file reading)
 
-I am running this on a [12700k/128 Gb RAM/NVIDIA 3070ti 8Gb/fast huge nvme with 256 Gb swap for 65B model] and getting one token from 30B model in a few seconds.
+I am running PyArrow version on a [12700k/128 Gb RAM/NVIDIA 3070ti 8Gb/fast huge nvme with 256 Gb swap for 65B model] and getting one token from 30B model in a few seconds.
 
 For example, **30B model uses around 70 Gb of RAM**. 7B model fits into 18 Gb. 13B model uses 48 Gb.
 
