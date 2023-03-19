@@ -29,6 +29,15 @@ For example, **30B model uses around 70 Gb of RAM**. 7B model fits into 18 Gb. 1
 
 If you do not have nvidia videocard, you may use another repo for cpu-only inference: https://github.com/randaller/llama-cpu or [HF 🤗 version](https://github.com/randaller/llama-chat#hugging-face--version).
 
+## Installation
+
+### Download the repo
+
+```
+git clone https://github.com/randaller/llama-chat.git
+cd llama-chat
+```
+
 ### Conda Environment Setup Example for Windows 10+
 Download and install Anaconda Python https://www.anaconda.com and run Anaconda Prompt
 ```
@@ -37,7 +46,7 @@ conda activate llama
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 
-### Setup
+### Install requirements
 In a conda env with pytorch / cuda available, run
 ```
 pip install -r requirements.txt
