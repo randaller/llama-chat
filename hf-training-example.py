@@ -14,11 +14,8 @@ OUTPUT_DIR = './trained'
 texts = pd.read_csv(DATA_FILE_PATH)['text']
 
 tokenizer = llamahf.LLaMATokenizer.from_pretrained(MODEL)
+tokenizer.pad_token_id = tokenizer.eos_token_id
 model = llamahf.LLaMAForCausalLM.from_pretrained(MODEL).cpu()
-
-if tokenizer.pad_token is None:
-    tokenizer.add_special_tokens({'pad_token': '<|endoftext|>'})
-    model.resize_token_embeddings(len(tokenizer))
 
 
 class TextDataset(Dataset):
