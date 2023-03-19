@@ -8,7 +8,7 @@ And on Steve Manuatu's repo: https://github.com/venuatu/llama
 
 And on Shawn Presser's repo: https://github.com/shawwn/llama
 
-HF version by Yam Peleg and Jason Phang: https://github.com/ypeleg/llama & https://github.com/zphang
+HF 🤗 version by Yam Peleg and Jason Phang: https://github.com/ypeleg/llama & https://github.com/zphang
 
 ### Examples of chats here
 
@@ -143,6 +143,12 @@ Confirming that 30B model is able to generate prompts for Stable Diffusion: http
 Confirming that 7B and 30B model support Arduino IDE: https://github.com/randaller/llama-chat/issues/7#issuecomment-1464179944
 
 Confirming that 30B model is able to generate SQL code: https://github.com/randaller/llama-chat/issues/7#issuecomment-1467861922
+
+### Hugging Face 🤗 version
+
+```
+python hf-inference-example.py
+```
 
 ### Reference
 
