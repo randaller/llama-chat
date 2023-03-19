@@ -217,7 +217,7 @@ DATA_FILE_PATH = 'datasets/stable_diffusion_prompts.csv'
 OUTPUT_DIR = './trained'
 ```
 
-*Note: You may also prepare your own dataset, for example, with Positive: and Negative: and even Sampler etc lines interleaving in csv.*
+*Note: You may also prepare your own dataset, for example, with Prompt: and Negative: and even Sampler etc lines interleaving in csv.*
 
 Then run the training, then after a long-long time, use something like this as a prompt for LLaMA to generate SD prompts:
 
@@ -225,10 +225,10 @@ Then run the training, then after a long-long time, use something like this as a
 batch = tokenizer("A portrait of a beautiful girl, ", return_tensors="pt")
 ```
 
-*Note: If you have prepared and used own dataset with Positive: Negative: lines, the initial LLaMA prompt may look like:*
+*Note: If you have prepared and used own dataset with Prompt: Negative prompt: lines, the initial LLaMA prompt may look like:*
 
 ```
-batch = tokenizer("Positive: A warship flying thru the Wormhole, ", return_tensors="pt")
+batch = tokenizer("Prompt: A warship flying thru the Wormhole, ", return_tensors="pt")
 ```
 
 Run inference, this should return continued prompt for SD.
