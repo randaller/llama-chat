@@ -146,6 +146,8 @@ Confirming that 30B model is able to generate SQL code: https://github.com/randa
 
 ### Hugging Face 🤗 version
 
+Thanks to Yam Peleg, we now have *"No overengineering bullshit"* version. Model shards and tokenizer will be downloaded from HF automatically at first run.
+
 ```
 python hf-inference-example.py
 ```
