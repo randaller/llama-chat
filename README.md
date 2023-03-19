@@ -146,7 +146,7 @@ Confirming that 30B model is able to generate SQL code: https://github.com/randa
 
 ### Hugging Face 🤗 version
 
-Thanks to Yam Peleg, we now have *"No overengineering bullshit"* version. Model shards and tokenizer will be downloaded from HF automatically at the first run. They will be cached in [C:\Users\USERNAME\.cache\huggingface\hub] folder under Windows, so do not forget to clean up to 250 Gb after experiments.
+Thanks to Yam Peleg, we now have *"No overengineering bullshit"* version. Model shards and tokenizer will be downloaded from HF automatically at the first run. They will be cached in [C:\Users\USERNAME\\.cache\huggingface\hub] folder under Windows, so do not forget to clean up to 250 Gb after experiments.
 
 ```
 python hf-inference-example.py
