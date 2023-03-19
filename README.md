@@ -167,7 +167,7 @@ You do not need to download torrent or merge weights, as model shards and tokeni
 python hf-inference-example.py
 ```
 
-### Training Hugging Face 🤗 version
+### Training
 
 Prepare your dataset, edit the training example to set your dataset file and launch training. Dataset file with strings should be in UTF-8 encoding.
 
@@ -219,7 +219,7 @@ OUTPUT_DIR = './trained'
 
 *Note: You may also prepare your own dataset, for example, with Positive: and Negative: and even Sampler etc lines interleaving in csv.*
 
-Then run the training, then after a long-long time, use something like this as prompt for LLaMA to generate SD prompts:
+Then run the training, then after a long-long time, use something like this as a prompt for LLaMA to generate SD prompts:
 
 ```
 batch = tokenizer("A portrait of a beautiful girl, ", return_tensors="pt")
