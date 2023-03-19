@@ -189,6 +189,20 @@ import torch
 torch.set_default_dtype(torch.bfloat16)
 ```
 
+### Offload to GPU with accelerate
+
+```
+device_map = infer_auto_device_map(model, max_memory={0: "6GiB", "cpu": "128GiB"})
+```
+
+One with A100 might try to set 38Gb to a GPU and try to inference the model completely in the GPU VRAM.
+
+For me, with 6Gb for 3070ti, this works three times slower against pure CPU inference.
+
+```
+python hf-inference-cuda-example.py
+```
+
 ## Reference
 
 LLaMA: Open and Efficient Foundation Language Models -- https://arxiv.org/abs/2302.13971
