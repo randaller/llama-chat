@@ -1,6 +1,8 @@
 # Chat with Meta's LLaMA models at home made easy
 
-This repository is a chat example with [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) ([arXiv](https://arxiv.org/abs/2302.13971v1)) models running on a typical home PC. You will just need a NVIDIA videocard and some RAM to chat with model. Using HF version you may fine-tune the model to any desired task.
+This repository is a chat example with [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) ([arXiv](https://arxiv.org/abs/2302.13971v1)) models running on a typical home PC. You will just need a NVIDIA videocard and some RAM to chat with model.
+
+By using HF version you may fine-tune the model to any desired task.
 
 ### Copyright
 
