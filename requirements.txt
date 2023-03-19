@@ -2,5 +2,5 @@ torch
 fire
 sentencepiece
 tqdm
-transformers
+transformers==4.27.1
 pyarrow
