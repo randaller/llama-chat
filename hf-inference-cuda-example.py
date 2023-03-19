@@ -22,4 +22,4 @@ device_map = infer_auto_device_map(model, max_memory={0: "6GiB", "cpu": "128GiB"
 print(device_map)
 
 batch = tokenizer("The highest mountain in China is ", return_tensors="pt")
-print(tokenizer.decode(model.generate(batch["input_ids"].cpu(), do_sample=True, top_k=50, max_length=100, top_p=0.95, temperature=1.0)[0]))
+print(tokenizer.decode(model.generate(batch["input_ids"].cuda(), do_sample=True, top_k=50, max_length=100, top_p=0.95, temperature=1.0)[0]))
