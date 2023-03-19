@@ -1,7 +1,7 @@
 import llamahf
 import os
 
-# # to save memory use bfloat16 on cpu
+# # to save memory use bfloat16
 # import torch
 # torch.set_default_dtype(torch.bfloat16)
 
