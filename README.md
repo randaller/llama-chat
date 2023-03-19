@@ -207,6 +207,24 @@ For me, with 7Gb for 3070ti, for 7B model, this works at the same speed as pure 
 python hf-inference-cuda-example.py
 ```
 
+### Example "How to train LLaMA for Stable Diffusion prompting
+
+Modify hf-training-example.py, also feel free to use more or less lines of SD prompts:
+
+```
+MODEL = 'decapoda-research/llama-7b-hf'
+DATA_FILE_PATH = 'datasets/stable_diffusion_prompts.csv'
+OUTPUT_DIR = './trained'
+```
+
+Then run the training, then after a long-long time, use something like this as prompt for LLaMA to generate SD prompts:
+
+```
+batch = tokenizer("A portrait of a beautiful girl, ", return_tensors="pt")
+```
+
+Run inference, this should return continued prompt.
+
 ## Reference
 
 LLaMA: Open and Efficient Foundation Language Models -- https://arxiv.org/abs/2302.13971
