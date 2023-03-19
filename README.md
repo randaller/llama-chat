@@ -217,7 +217,7 @@ DATA_FILE_PATH = 'datasets/stable_diffusion_prompts.csv'
 OUTPUT_DIR = './trained'
 ```
 
-Then run the training, then after a long-long time, use something like this as prompt for LLaMA to generate SD prompts:
+Then run the training, then after a long-long time, use something like this as prompt for LLaMA to generate SD prompts examples:
 
 ```
 batch = tokenizer("A portrait of a beautiful girl, ", return_tensors="pt")
