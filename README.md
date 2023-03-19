@@ -183,7 +183,7 @@ python hf-inference-example.py
 
 ### Bfloat16 training and inference optimization
 
-To save memory you may enable Bfloat16 processing.
+To save CPU RAM or GPU VRAM memory, one may wish to enable Bfloat16 processing.
 
 ```
 # to save memory use bfloat16 on cpu
