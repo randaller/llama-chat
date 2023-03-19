@@ -211,13 +211,13 @@ python hf-inference-cuda-example.py
 
 Modify hf-training-example.py, also feel free to use more or less lines of SD prompts examples in csv file:
 
-You may also prepare your own dataset, for example, with Positive and Negative and even Sampler etc lines interleaving in csv.
-
 ```
 MODEL = 'decapoda-research/llama-7b-hf'
 DATA_FILE_PATH = 'datasets/stable_diffusion_prompts.csv'
 OUTPUT_DIR = './trained'
 ```
+
+*Note: You may also prepare your own dataset, for example, with Positive: and Negative: and even Sampler etc lines interleaving in csv.*
 
 Then run the training, then after a long-long time, use something like this as prompt for LLaMA to generate SD prompts:
 
@@ -225,7 +225,7 @@ Then run the training, then after a long-long time, use something like this as p
 batch = tokenizer("A portrait of a beautiful girl, ", return_tensors="pt")
 ```
 
-If you have used dataset with Positive: Negative: lines, initial prompt may looks like:
+*Note: If you have prepared and used own dataset with Positive: Negative: lines, the initial prompt may look like:*
 
 ```
 batch = tokenizer("Positive: A warship flying thru the Wormhole, ", return_tensors="pt")
