@@ -47,6 +47,8 @@ Then in this repository
 pip install -e .
 ```
 
+## PyArrow version
+
 ### Download tokenizer and models
 magnet:?xt=urn:btih:ZXXDAUWYLRUXXBHUYEMS6Q5CE5WA3LVA&dn=LLaMA
 
