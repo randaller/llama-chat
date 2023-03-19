@@ -4,7 +4,7 @@ This repository is a chat example with [LLaMA](https://ai.facebook.com/blog/larg
 
 By using HF version you may fine-tune the model to any desired task.
 
-### Copyright
+## Copyright
 
 This repo is heavily based on Meta's original repo: https://github.com/facebookresearch/llama
 
