@@ -8,7 +8,7 @@ And on Steve Manuatu's repo: https://github.com/venuatu/llama
 
 And on Shawn Presser's repo: https://github.com/shawwn/llama
 
-HF 🤗 version by Yam Peleg and Jason Phang: https://github.com/ypeleg/llama & https://github.com/zphang
+[HF 🤗 version](https://github.com/randaller/llama-chat#hugging-face--version) by Yam Peleg and Jason Phang: https://github.com/ypeleg/llama & https://github.com/zphang
 
 ### Examples of chats here
 
@@ -27,7 +27,7 @@ I am running this on a [12700k/128 Gb RAM/NVIDIA 3070ti 8Gb/fast huge nvme with 
 
 For example, **30B model uses around 70 Gb of RAM**. 7B model fits into 18 Gb. 13B model uses 48 Gb.
 
-If you do not have nvidia videocard, you may use another repo for cpu-only inference: https://github.com/randaller/llama-cpu or HF version.
+If you do not have nvidia videocard, you may use another repo for cpu-only inference: https://github.com/randaller/llama-cpu or [HF 🤗 version](https://github.com/randaller/llama-chat#hugging-face--version).
 
 ### Conda Environment Setup Example for Windows 10+
 Download and install Anaconda Python https://www.anaconda.com and run Anaconda Prompt
