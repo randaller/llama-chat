@@ -144,9 +144,24 @@ Confirming that 7B and 30B model support Arduino IDE: https://github.com/randall
 
 Confirming that 30B model is able to generate SQL code: https://github.com/randaller/llama-chat/issues/7#issuecomment-1467861922
 
-### Hugging Face 🤗 version
+## Hugging Face 🤗 version
 
-Thanks to Yam Peleg, we now have *"No overengineering bullshit"* version. Model shards and tokenizer will be downloaded from HF automatically at the first run. They will be cached in [C:\Users\USERNAME\\.cache\huggingface\hub] folder under Windows, so do not forget to clean up to 250 Gb after experiments.
+Thanks to Yam Peleg, we now have *"No overengineering bullshit"* version.
+
+You do not need to download torrent or merge weights, as model shards and tokenizer will be downloaded from HF automatically at the first run. They will be cached in [C:\Users\USERNAME\\.cache\huggingface\hub] folder under Windows, so do not forget to clean up to 250 Gb after experiments.
+
+```
+python hf-inference-example.py
+```
+
+### Training Hugging Face 🤗 version
+
+Prepare your dataset, edit the training example to set your dataset file and launch:
+
+```
+python hf-training-example.py
+```
+Trained model will be saved into [./trained] folder. Now you may edit inference example to load your trained model and run inference with:
 
 ```
 python hf-inference-example.py
