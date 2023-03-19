@@ -217,7 +217,7 @@ DATA_FILE_PATH = 'datasets/stable_diffusion_prompts.csv'
 OUTPUT_DIR = './trained'
 ```
 
-*Note: You may also prepare your own dataset, for example, with Prompt: and Negative: and even Sampler etc lines interleaving in csv.*
+*Note: You may also prepare your own dataset, for example, with Prompt: and Negative prompt: and even Steps Sampler etc lines interleaving in csv.*
 
 Then run the training, then after a long-long time, use something like this as a prompt for LLaMA to generate SD prompts:
 
