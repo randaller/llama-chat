@@ -10,15 +10,15 @@ And on Shawn Presser's repo: https://github.com/shawwn/llama
 
 [HF 🤗 version](https://github.com/randaller/llama-chat#hugging-face--version) by Yam Peleg and Jason Phang: https://github.com/ypeleg/llama & https://github.com/zphang
 
-### Examples of chats here
+## Examples of chats here
 
 https://github.com/facebookresearch/llama/issues/162
 
 Share your best prompts, chats or generations here in this issue: https://github.com/randaller/llama-chat/issues/7
 
-### System requirements
+## System requirements
 - Modern enough CPU
-- NVIDIA graphics card (2 Gb of VRAM is ok)
+- NVIDIA graphics card (2 Gb of VRAM is ok); HF version is able to run on CPU, or mixed CPU/GPU, or pure GPU
 - 64 or better 128 Gb of RAM (192 would be perfect for 65B model)
 
 One may run with 32 Gb of RAM, but inference will be slow (with the speed of your swap file reading)
