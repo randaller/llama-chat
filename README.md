@@ -167,7 +167,7 @@ Trained model will be saved into [./trained] folder. Now you may edit inference 
 python hf-inference-example.py
 ```
 
-### Reference
+## Reference
 
 LLaMA: Open and Efficient Foundation Language Models -- https://arxiv.org/abs/2302.13971
 
