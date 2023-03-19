@@ -156,7 +156,8 @@ python hf-inference-example.py
 
 ### Training Hugging Face 🤗 version
 
-Prepare your dataset, edit the training example to set your dataset file and launch training. Dataset file with strings should be in UTF-8 encoding without BOM.
+Prepare your dataset, edit the training example to set your dataset file and launch training. Dataset file with strings should be in UTF-8 encoding.
+
 ![image](https://user-images.githubusercontent.com/22396871/226167997-475b806a-e257-4628-979c-d15df4b3bc5c.png)
 ```
 python hf-training-example.py
