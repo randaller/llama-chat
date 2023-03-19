@@ -8,6 +8,8 @@ And on Steve Manuatu's repo: https://github.com/venuatu/llama
 
 And on Shawn Presser's repo: https://github.com/shawwn/llama
 
+HF version by Yam Peleg and Jason Phang: https://github.com/ypeleg/llama https://github.com/zphang
+
 ### Examples of chats here
 
 https://github.com/facebookresearch/llama/issues/162
