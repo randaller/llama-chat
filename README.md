@@ -47,7 +47,7 @@ Then in this repository
 pip install -e .
 ```
 
-## PyArrow version
+## PyArrow version (inference only)
 
 ### Download tokenizer and models
 magnet:?xt=urn:btih:ZXXDAUWYLRUXXBHUYEMS6Q5CE5WA3LVA&dn=LLaMA
@@ -146,7 +146,7 @@ Confirming that 7B and 30B model support Arduino IDE: https://github.com/randall
 
 Confirming that 30B model is able to generate SQL code: https://github.com/randaller/llama-chat/issues/7#issuecomment-1467861922
 
-## Hugging Face 🤗 version
+## Hugging Face 🤗 version (inference & training)
 
 Thanks to Yam Peleg, we now have *"No overengineering bullshit"* version.
 
