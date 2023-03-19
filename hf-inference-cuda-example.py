@@ -2,7 +2,7 @@ import llamahf
 import os
 from accelerate import infer_auto_device_map
 
-# # to save memory use bfloat16 on cpu
+# # to save memory use bfloat16
 # import torch
 # torch.set_default_dtype(torch.bfloat16)
 
