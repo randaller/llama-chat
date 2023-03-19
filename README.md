@@ -157,6 +157,8 @@ Confirming that 30B model is able to generate SQL code: https://github.com/randa
 
 ## Hugging Face 🤗 version (inference & training)
 
+### Inference
+
 Thanks to Yam Peleg, we now have *"No overengineering bullshit"* version.
 
 You do not need to download torrent or merge weights, as model shards and tokenizer will be downloaded from HF automatically at the first run. They will be cached in [C:\Users\USERNAME\\.cache\huggingface\hub] folder under Windows, so do not forget to clean up to 250 Gb after experiments.
