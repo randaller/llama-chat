@@ -18,4 +18,4 @@ model = llamahf.LLaMAForCausalLM.from_pretrained(MODEL, low_cpu_mem_usage=True)
 model.to('cpu')
 
 batch = tokenizer("The highest mountain in China is ", return_tensors="pt")
-print(tokenizer.decode(model.generate(batch["input_ids"].cpu(), max_length=100)[0]))
+print(tokenizer.decode(model.generate(batch["input_ids"].cpu(), do_sample=True, top_k=50, max_length=100, top_p=0.95, temperature=1.0)[0]))
