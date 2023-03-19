@@ -209,7 +209,7 @@ python hf-inference-cuda-example.py
 
 ### "How to train LLaMA for Stable Diffusion prompting" example
 
-Modify hf-training-example.py, also feel free to use more or less lines of SD prompts:
+Modify hf-training-example.py, also feel free to use more or less lines of SD prompts examples in csv file:
 
 ```
 MODEL = 'decapoda-research/llama-7b-hf'
@@ -217,7 +217,7 @@ DATA_FILE_PATH = 'datasets/stable_diffusion_prompts.csv'
 OUTPUT_DIR = './trained'
 ```
 
-Then run the training, then after a long-long time, use something like this as prompt for LLaMA to generate SD prompts examples:
+Then run the training, then after a long-long time, use something like this as prompt for LLaMA to generate SD prompts:
 
 ```
 batch = tokenizer("A portrait of a beautiful girl, ", return_tensors="pt")
