@@ -1,4 +1,5 @@
 import llamahf
+import os
 from accelerate import infer_auto_device_map
 
 # # to save memory use bfloat16 on cpu
@@ -10,7 +11,8 @@ MODEL = 'decapoda-research/llama-7b-hf'
 # MODEL = 'decapoda-research/llama-30b-hf'
 # MODEL = 'decapoda-research/llama-65b-hf'
 
-# MODEL = './trained'
+if os.path.exists('./trained'):
+    MODEL = './trained'
 
 tokenizer = llamahf.LLaMATokenizer.from_pretrained(MODEL)
 model = llamahf.LLaMAForCausalLM.from_pretrained(MODEL, low_cpu_mem_usage=True, device_map="auto", offload_folder="./offload")
