@@ -161,7 +161,7 @@ Prepare your dataset, edit the training example to set your dataset file and lau
 ```
 python hf-training-example.py
 ```
-Trained model will be saved into [./trained] folder. Now you may edit inference example to load your trained model and run inference with:
+Trained model will be saved into [./trained] folder. Now you may launch inference example with freshly trained model and run inference with:
 
 ```
 python hf-inference-example.py
