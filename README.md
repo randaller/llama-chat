@@ -185,8 +185,11 @@ Prepare your dataset, edit the training example to define your dataset file and 
 ```
 python hf-training-example.py
 ```
-Trained model will be saved into [./trained] folder. Now launch inference example with freshly trained model:
+Trained model will be saved into [./trained] folder. Now launch chat or inference example with freshly trained model:
 
+```
+python hf-chat-example.py
+```
 ```
 python hf-inference-example.py
 ```
