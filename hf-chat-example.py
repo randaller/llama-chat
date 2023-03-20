@@ -43,7 +43,6 @@ while True:
                                 max_length=2048,
                                 top_p=0.95,
                                 temperature=1.0,
-                                repetition_penalty=1.17,
                                 eos_token_id=n
                                 )
         decoded = tokenizer.decode(result[0])
