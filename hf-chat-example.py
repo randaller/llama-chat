@@ -24,6 +24,8 @@ class StoppingCriteriaSub(StoppingCriteria):
         super().__init__()
 
     def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor, stops=[]):
+        print('-' * 40)
+        print(tokenizer.decode(input_ids[0]))
         if input_ids[0][-1] == 13:
             return True
 
