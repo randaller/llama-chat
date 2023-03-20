@@ -25,7 +25,8 @@ AI: Hello! How can I assist you today?
 """
 
 while True:
-    print(ctx)
+    print('-' * 40)
+    print(ctx.rstrip("\n"))
     prompt = input(f'User: ')
     if ctx != "":
         ctx = ctx + "User: " + prompt + "\n"
@@ -42,6 +43,7 @@ while True:
                                 max_length=2048,
                                 top_p=0.95,
                                 temperature=1.0,
+                                repetition_penalty=1.17,
                                 eos_token_id=n
                                 )
         decoded = tokenizer.decode(result[0])
