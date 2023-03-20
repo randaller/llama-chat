@@ -171,6 +171,12 @@ You do not need to download torrent or merge weights, as model shards and tokeni
 python hf-inference-example.py
 ```
 
+### Chatting
+
+```
+python hf-chat-example.py
+```
+
 ### Training
 
 Prepare your dataset, edit the training example to define your dataset file and launch training. Dataset file with strings should be in UTF-8 encoding.
